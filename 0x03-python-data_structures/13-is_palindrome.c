@@ -1,22 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
+
 /**
- * is_palindrome - checks if palindrome
- * @head: head of node
- * Return: 0 if not, 1 if is
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-int is_palindrome(listint_t **head)
+int main(void)
 {
-	unsigned int len = 1;
-	listint_t *temp;
+	listint_t *head;
 
-	if (head == NULL|| *head == NULL)
-		return (1);
-
-	temp = *head;
-	while (temp) /* get len of list */
-	{
-		temp = temp->next;
-		len++;
-	}
 	return (0);
 }
